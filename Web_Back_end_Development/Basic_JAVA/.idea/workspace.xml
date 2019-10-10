@@ -32,7 +32,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RectangleProgram">
+  <component name="RunManager" selected="Application.LinearEquationResolver">
+    <configuration name="LinearEquationResolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinearEquationResolver" />
+      <module name="Basic_JAVA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RectangleProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RectangleProgram" />
       <module name="Basic_JAVA" />
@@ -56,6 +63,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinearEquationResolver" />
         <item itemvalue="Application.RectangleProgram" />
         <item itemvalue="Application.Student" />
         <item itemvalue="Application.SystemTime" />
@@ -73,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1570703125106</updated>
       <workItem from="1570703128048" duration="566000" />
-      <workItem from="1570718514817" duration="3838000" />
+      <workItem from="1570718514817" duration="5368000" />
     </task>
     <servers />
   </component>
