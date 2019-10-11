@@ -7,7 +7,7 @@ public class Prime_less_than_100 {
         Scanner scanner = new Scanner(System.in);
         for (int i = 0 ; i <= 100; i++){
             if (isPrime(i)){
-                System.out.println(i + " ");
+                System.out.print(i + " ");
             }
         }
     }
