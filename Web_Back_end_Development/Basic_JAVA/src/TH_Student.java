@@ -1,4 +1,4 @@
-public class Student {
+public class TH_Student {
     public static void main(String[] args) {
         int i = 10;
         float f = 20.5f;

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dfb5a63b-dc5e-478b-aa79-2c1f6085d3c9" name="Default Changelist" comment="" />
+    <list default="true" id="dfb5a63b-dc5e-478b-aa79-2c1f6085d3c9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/TH_LinearEquationResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TH_RectangleProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RectangleProgram.java" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +20,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1S0amROMEnQqAChHOSNbIGpXSRe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -32,7 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinearEquationResolver">
+  <component name="RunManager" selected="Application.TH_SystemTime">
     <configuration name="LinearEquationResolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinearEquationResolver" />
       <module name="Basic_JAVA" />
@@ -40,22 +51,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RectangleProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RectangleProgram" />
+    <configuration name="TH_LinearEquationResolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TH_LinearEquationResolver" />
       <module name="Basic_JAVA" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Student" />
+    <configuration name="TH_RectangleProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TH_RectangleProgram" />
       <module name="Basic_JAVA" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SystemTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SystemTime" />
+    <configuration name="TH_Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TH_Student" />
+      <module name="Basic_JAVA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TH_SystemTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TH_SystemTime" />
       <module name="Basic_JAVA" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -63,10 +81,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TH_SystemTime" />
+        <item itemvalue="Application.TH_Student" />
+        <item itemvalue="Application.TH_LinearEquationResolver" />
+        <item itemvalue="Application.TH_RectangleProgram" />
         <item itemvalue="Application.LinearEquationResolver" />
-        <item itemvalue="Application.RectangleProgram" />
-        <item itemvalue="Application.Student" />
-        <item itemvalue="Application.SystemTime" />
       </list>
     </recent_temporary>
   </component>
@@ -81,11 +100,23 @@
       <option name="presentableId" value="Default" />
       <updated>1570703125106</updated>
       <workItem from="1570703128048" duration="566000" />
-      <workItem from="1570718514817" duration="5368000" />
+      <workItem from="1570718514817" duration="5658000" />
+      <workItem from="1570758051679" duration="294000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

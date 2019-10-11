@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class RectangleProgram {
+public class TH_RectangleProgram {
     public static void main(String[] args) {
         float width;
         float height;
