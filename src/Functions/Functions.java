@@ -15,5 +15,23 @@ public class Functions {
     }public static boolean checkLocation(int[]arr , int location){
         return (location < 0) || (location > arr.length);
     }
+    public static int[][] create2DMatrix(int height , int width){
+        int[][]arr = new int[height][width];
+        for (int i = 0 ; i <height ; i++){
+            for(int j = 0; j < width ; j++){
+                arr[i][j] = (int)(Math.random()*100);
+            }
+        }
+        return arr;
+    }
+
+    public static void Show2DMatrix(int[][] arr, int height , int width){
+        for (int i = 0 ; i < height ; i++){
+            for (int j = 0; j < width; j++){
+                System.out.print(arr[i][j] + " ");
+            }
+            System.out.println(" ");
+        }
+    }
 }
 
