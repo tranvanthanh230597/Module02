@@ -1,4 +1,4 @@
-package Array_And_Method.Functions;
+package Functions;
 
 public class Functions {
     public static int[] createMatrix(int num){
