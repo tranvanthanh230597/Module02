@@ -22,7 +22,5 @@ public class InsertToArray {
 
         System.out.print("Enter value you want insert: ");
         int insertValue = scanner.nextInt();
-
     }
-
 }
