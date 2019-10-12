@@ -16,3 +16,4 @@ public class Functions {
         return (location < 0) || (location > arr.length);
     }
 }
+
