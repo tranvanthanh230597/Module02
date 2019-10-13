@@ -17,6 +17,7 @@ public class Functions {
     public static boolean checkLocation(int[]arr , int location){
         return (location < 0) || (location > arr.length);
     }
+
     public static int[][] create2DMatrix(int height , int width){
         int[][]arr = new int[height][width];
         for (int i = 0 ; i <height ; i++){
