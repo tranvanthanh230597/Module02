@@ -6,7 +6,6 @@ import java.util.Scanner;
 
 public class DeleteFronArray {
     public static void main(String[] args) {
-        int location = -1;
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter size of Array: ");
         int size = scanner.nextInt();
@@ -14,20 +13,26 @@ public class DeleteFronArray {
         System.out.print("Arr is : ");
         Functions.show(arr);
         System.out.println(" ");
-
-        while (Functions.checkLocation(arr,location)){
-            System.out.print("Enter location in array you want delete: ");
-            location = scanner.nextInt();
-        }
-        int[]arr2nd = delFromArray(arr,location);
+        System.out.print("Enter munber in array you want delete: ");
+        int num = scanner.nextInt();
+        int[]arr2nd = delFromArray(arr,num);
         Functions.show(arr2nd);
 
     }
 
-    public static int[] delFromArray(int[]arr,int location){
-        for (int i = location; i < arr.length; i++) {
-            arr[i] = arr[i + 1];
+    private static int[] delFromArray(int[]arr,int num){
+        int length = arr.length;
+        int c;
+        for(int i = c = 0; i <length; i++ ){
+            if(arr[i] != num){
+                arr[c] = arr[i];
+                c++;
+            }
         }
-        return arr;
+        int[] arr2nd = new int[c];
+        for (int i = 0; i < c; i++){
+            arr2nd[i] = arr[i];
+        }
+        return arr2nd;
     }
 }
