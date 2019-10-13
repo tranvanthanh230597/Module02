@@ -26,15 +26,16 @@ public class InsertToArray {
 
     }
 
-    public static int[] insertArray(int[]arr,int location, int insertValue){
+    private static int[] insertArray(int[]arr,int location, int insertValue){
         int length = arr.length+1;
         int[] arr2nd = new int[length];
-        System.arraycopy(arr, 0, arr2nd, 0, arr.length);
-        Functions.show(arr2nd);
-        for (int i = arr2nd.length -1; i >= location; i--){
-            arr2nd[i+1] = arr2nd[i];
+        for(int i = 0; i < arr.length; i++){
+            arr2nd[i] = arr[i];
         }
-        arr2nd[location]= insertValue;
+        for (int i = arr2nd.length-2; i >= location ; i--){
+            arr2nd[i+1]= arr2nd[i];
+        }
+        arr2nd[location] = insertValue;
         return arr2nd;
     }
 }
