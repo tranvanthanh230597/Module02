@@ -12,7 +12,9 @@ public class Functions {
         for (int value : arr) {
             System.out.print(value+" ");
         }
-    }public static boolean checkLocation(int[]arr , int location){
+        System.out.println("");
+    }
+    public static boolean checkLocation(int[]arr , int location){
         return (location < 0) || (location > arr.length);
     }
     public static int[][] create2DMatrix(int height , int width){
