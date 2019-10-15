@@ -36,5 +36,20 @@ public class Functions {
             System.out.println(" ");
         }
     }
+    public static boolean checkColIn2DMatrix(int[][] arr,int height, int width, int col){
+        return (col >= 0) && (col < width);
+    }
+    public static void sortASC(int [] arr) {
+        int temp = arr[0];
+        for (int i = 0; i < arr.length - 1; i++) {
+            for (int j = i + 1; j < arr.length; j++) {
+                if (arr[i] > arr[j]) {
+                    temp = arr[j];
+                    arr[j] = arr[i];
+                    arr[i] = temp;
+                }
+            }
+        }
+    }
 }
 
