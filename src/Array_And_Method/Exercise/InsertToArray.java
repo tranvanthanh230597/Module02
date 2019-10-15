@@ -14,8 +14,7 @@ public class InsertToArray {
         System.out.print("Arr is : ");
         Functions.show(arr);
         System.out.println(" ");
-
-        while (Functions.checkLocation(arr,location)){
+        while (Functions.checkInsertLocation(arr,location)){
             System.out.print("Enter location in array you want insert: ");
             location = scanner.nextInt();
         }
