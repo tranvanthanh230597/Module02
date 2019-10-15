@@ -1,4 +1,4 @@
-package Array_And_Method.Exercise;
+package Array_And_Method.Exercise.IllegalTriangleExceptionAssignments;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -11,10 +11,10 @@ public class MyIllegalTriangleException {
         int len02 =scanner.nextInt();
         int len03 =scanner.nextInt();
         try{
-            System.out.println(len01+ " "+ len02 +" and "+ len03 + "is 3 length of Triangle");
+            CheckTriangle.checkTriangle(len01, len02, len03);
         }
-        catch (InputMismatchException e){
-            System.out.println("input false !!!!");
+        catch (Exception01 | Exception02 e){
+            System.out.println(e.getMessage());
         }
     }
 }
