@@ -4,6 +4,8 @@ public class Circle {
     private double radius;
     private String color;
 
+
+
     public void setRadius(double radius) {
         this.radius = radius;
     }
@@ -20,8 +22,9 @@ public class Circle {
     public Circle(){
 
     }
-    public Circle(double radius){
+    public Circle(double radius, String color) {
         this.radius = radius;
+        this.color = color;
     }
     public double area(){
         return  Math.pow(radius,2) * Math.PI;

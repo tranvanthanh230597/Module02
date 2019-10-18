@@ -12,10 +12,10 @@ public class Cylinder extends Circle {
     public Cylinder() {
 
     }
-    public Cylinder(double radius, double height,String color) {
+    public Cylinder(double radius, String color, double height) {
+        super(radius,color);
         this.height = height;
-        setColor(color);
-        setRadius(radius);
+
     }
     public double area(){
         return  super.area()*2 + 2* Math.PI * this.getRadius()*this.getHeight() ;
