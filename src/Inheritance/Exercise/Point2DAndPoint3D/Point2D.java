@@ -1,8 +1,4 @@
-package Inheritance.Exercise.PointAndMoveablePoint;
-
-import Functions.Functions;
-
-import java.lang.reflect.Array;
+package Inheritance.Exercise.Point2DAndPoint3D;
 import java.util.Arrays;
 
 public class Point2D {
