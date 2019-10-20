@@ -1,4 +1,4 @@
-package Advanced_Object_Oriented_Design.AnimalAndEdible;
+package Advanced_Object_Oriented_Design.Pratice.AnimalAndEdible;
 
 public class Tiger extends Animal {
     @Override
