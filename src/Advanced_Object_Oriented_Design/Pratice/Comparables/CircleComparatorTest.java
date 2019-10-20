@@ -1,4 +1,4 @@
-package Advanced_Object_Oriented_Design.Comparables;
+package Advanced_Object_Oriented_Design.Pratice.Comparables;
 
 import java.util.Arrays;
 import java.util.Comparator;

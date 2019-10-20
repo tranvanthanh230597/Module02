@@ -1,4 +1,4 @@
-package Advanced_Object_Oriented_Design.Comparables;
+package Advanced_Object_Oriented_Design.Pratice.Comparables;
 import java.util.Comparator;
 
 public class CircleComparator implements Comparator<Circle> {

@@ -1,4 +1,4 @@
-package Advanced_Object_Oriented_Design.Comparables;
+package Advanced_Object_Oriented_Design.Pratice.Comparables;
 
 public class Circle extends Shape {
     private double radius = 1.0;
