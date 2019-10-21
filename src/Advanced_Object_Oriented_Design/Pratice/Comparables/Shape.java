@@ -36,3 +36,4 @@ public class Shape {
                 + (isFilled() ? "filled" : "not filled");
     }
 }
+
