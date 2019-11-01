@@ -1,4 +1,4 @@
-package Clean_Code_And_Refactoring.Exercise.Calculators;
+package Clean_Code_And_Refactoring.Practice.Calculators;
 
 public class Calculator {
     public static final char ADDITION = '+';

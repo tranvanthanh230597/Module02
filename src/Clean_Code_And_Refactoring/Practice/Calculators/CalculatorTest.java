@@ -1,4 +1,4 @@
-package Clean_Code_And_Refactoring.Exercise.Calculators;
+package Clean_Code_And_Refactoring.Practice.Calculators;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
