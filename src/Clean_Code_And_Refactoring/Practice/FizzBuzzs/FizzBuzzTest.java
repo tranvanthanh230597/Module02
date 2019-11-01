@@ -1,4 +1,4 @@
-package Clean_Code_And_Refactoring.Exercise.FizzBuzzs;
+package Clean_Code_And_Refactoring.Practice.FizzBuzzs;
 
 import org.junit.jupiter.api.Test;
 
